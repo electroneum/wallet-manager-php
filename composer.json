@@ -1,0 +1,29 @@
+{
+  "name": "electroneum/wallet-manager",
+  "description": "Electroneum PHP Wallet Manager",
+  "type": "library",
+  "keywords": [
+    "electroneum",
+    "etn",
+    "wallet",
+    "php"
+  ],
+  "homepage": "https://github.com/electroneum/wallet-manager-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Electroneum Ltd",
+      "email": "support@electroneum.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "ext-json": "*",
+    "ext-gmp": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Electroneum\\Wallet\\": "lib"
+    }
+  }
+}
